@@ -3,3 +3,16 @@ take input from user
 add the values
 
 submit data to the database
+
+
+different git commands 
+git --version // for checking git version
+git add filename // for adding files in git
+git status // for checking status of git
+git log // for seeing all commits that people done in git
+git commit -m "commit statement" // for commit any changes in git
+git commit -a -m "commit statement" // for skip add file command and directly commit in git
+git rm --cached filename // for removing file from git and then you delete that file from your working drectory also to permanently delete it
+git add . // for adding all files/some changes done in files in git 
+git diff // for seeing what unsaved changes left in the file
+git diff --staged
