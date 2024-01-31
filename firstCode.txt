@@ -56,3 +56,14 @@ collaborate (see also: git help workflows)
    fetch     Download objects and refs from another repository   pull      Fetch from and integrate with another repository 
 or a local branch
    push      Update remote refs along with associated objects 
+
+
+   To connecting git follow these steps:-
+   git branch -M main
+   git add README.md
+   git commit -m "My first commit"
+   git status
+   git remote add origin https://github.com/Hitesh533/git-course.git 
+   git push -u origin main
+   git status
+   git push // To push that file into the github
