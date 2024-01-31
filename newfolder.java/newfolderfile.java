@@ -3,8 +3,9 @@ class newfolderfile {
         int a = 40;
         int b = 25;
         System.out.println(a + b);
-    
-      int nums[] = { 54312121, 98144765, 12351245, 67821290, 13221579, 2461480, 8642120, 4206229,54321, 98765, 12345, 67890, 13579, 24680, 86420, 42069, 31415,27182 };
+
+        int nums[] = { 54312121, 98144765, 12351245, 67821290, 13221579, 2461480, 8642120, 4206229, 54321, 98765, 12345,
+                67890, 13579, 24680, 86420, 42069, 31415, 27182 };
         int target = 42069;
         // int nums[] = new int[100];
         // int target = 25;
@@ -26,7 +27,7 @@ class newfolderfile {
         }
 
         System.out.println("before sorting");
-        for(int num : nums){
+        for (int num : nums) {
             System.out.println(num);
         }
 
@@ -34,21 +35,21 @@ class newfolderfile {
         int size = nums.length;
         int temp = 0;
         int steps = 0;
-        for(int i = 0; i<size;i++){
-            for(int j = 0; j<size-i-1;j++){
+        for (int i = 0; i < size; i++) {
+            for (int j = 0; j < size - i - 1; j++) {
                 steps++;
-                if(nums[j]>nums[j+1]){
+                if (nums[j] > nums[j + 1]) {
                     temp = nums[j];
-                    nums[j]=nums[j+1];
-                    nums[j+1]=temp;
+                    nums[j] = nums[j + 1];
+                    nums[j + 1] = temp;
                     System.out.println("Steps taken by the Bubble Sort " + steps);
                 }
             }
         }
-        
+
         System.out.println();
         System.out.println("after sorting");
-        for(int num : nums){
+        for (int num : nums) {
             System.out.println(num);
         }
     }
